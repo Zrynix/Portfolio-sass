@@ -370,6 +370,56 @@ footer p:nth-child(2) {
     margin: 30%;
   }
 }
+/*media queries voor landscape mode*/
+@media screen and (max-width: 200px) and (orientation: landscape) {
+  .main {
+    height: auto;
+  }
+
+  
+
+  .content {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .maina {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .overa img {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .overa-tekst {
+    width: 90%;
+  }
+
+  .title h2 {
+    font-size: 40px;
+  }
+
+  .carda {
+    width: 90%;
+    margin: 15px auto;
+  }
+}
+
 /* Media queries voor tablet */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .main {
