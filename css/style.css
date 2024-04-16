@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(../img/Maina.jpg);
+  background-image: url(../Img/Maina.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .spana {
-  color: #9f2626;
+  color: #D14743;
 }
 
 nav {
@@ -145,7 +145,7 @@ h3 {
 .overa {
   width: 100%;
   padding: 100px 0px;
-  background-color: #191919;
+  background-color: black;
 }
 
 .overa img {
@@ -158,7 +158,7 @@ h3 {
 }
 
 .overa-tekst h2 {
-  color: #9f2626;
+  color: #D14743;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -181,7 +181,7 @@ h3 {
 }
 
 .h4a {
-  color: #9f2626;
+  color: #D14743;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -396,6 +396,7 @@ height: 5%;
   }
   .image {
     margin: 30%;
+
   }
 }
 /*media queries voor landscape mode*/
