@@ -333,10 +333,23 @@ footer p:nth-child(2) {
 
 /* Skills images */
 .Laravel {
-  height: 30px;
-  margin-left: -20px;
+height: 5%;
+  width: 10%;
+  margin-bottom: 0px;
+  margin-top: 40%;
+  right: 20%;
+  float: left;
 }
 
+.React {
+  height: 5%;
+  width: 10%;
+}
+
+.Css {
+  height: 5%;
+  width: 10%;
+}
 /* Media queries voor mobiel */
 @media screen and (max-width: 768px) {
   .main {
@@ -350,6 +363,7 @@ footer p:nth-child(2) {
     padding-left: 20%;
   }
   .content {
+    margin-top: 20%;
     left: 5%;
     width: 90%;
     text-align: center;
@@ -390,10 +404,9 @@ footer p:nth-child(2) {
     height: auto;
   }
 
-  
-
   .content {
-    top: 20%;
+    margin-top: 0px;
+      margin-bottom: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
   }
